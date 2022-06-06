@@ -19,6 +19,7 @@ public class AlgoritmoSimplesOrd {
         }
     }
 
+    //algoritmo de seleção
     public static void selectionSort(int[] vetor){
         for (int i = 0; i < vetor.length-1; i++) {
             int minIndice = i; // o índice do mínio selecionado
@@ -36,6 +37,7 @@ public class AlgoritmoSimplesOrd {
         }
     }
 
+    //algoritmo inserção
     public static void insertionSort(int[] vetor){
         for (int i = 1; i < vetor.length; i++) {
             int elementoInsert = vetor[i];
